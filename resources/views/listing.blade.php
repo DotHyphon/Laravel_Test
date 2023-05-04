@@ -1,1 +1,0 @@
-<h3>{{$listing['title']}}</h3>
