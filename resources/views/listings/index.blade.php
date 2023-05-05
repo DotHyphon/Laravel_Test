@@ -13,5 +13,9 @@
         @endunless
 
     </div>
+
+    <div class="my-8">
+        {{ $listings->links() }}
+    </div>
 </x-layout>
 
