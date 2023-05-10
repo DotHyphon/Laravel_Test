@@ -7,7 +7,7 @@
             <p class="mb-4">Create an account to post gigs</p>
         </header>
 
-        <form method="POST" action="/users">
+        <form method="POST" action="/laravel/users">
             @csrf
             <div class="mb-6">
                 <label for="name" class="inline-block text-lg mb-2">
@@ -56,7 +56,7 @@
             <div class="mt-8">
                 <p>
                     Already have an account?
-                    <a href="/login" class="text-laravel">Login</a>
+                    <a href="/laravel/login" class="text-laravel">Login</a>
                 </p>
             </div>
         </form>

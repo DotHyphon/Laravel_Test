@@ -40,7 +40,7 @@ Route::post('/users', [UserController::class, 'store'])->middleware('guest');
 
 Route::get('/login', [UserController::class, 'login'])->name('login')->middleware('guest');
 
-ROute::post('login', [UserController::class, 'authenticate'])->middleware('guest');
+ROute::post('/login', [UserController::class, 'authenticate'])->middleware('guest');
 
 Route::post('/logout', [UserController::class, 'logout'])->middleware('auth');
 
